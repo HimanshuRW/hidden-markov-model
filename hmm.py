@@ -14,8 +14,8 @@ data = pd.read_csv("stock.csv")
 # ...
 
 # Select key features for HMM (excluding date and price for features)
-features = ['feature1', 'feature2', 'feature3',..., 'featureN']
-
+features = ['feature1', 'feature2', 'feature3', 'feature4', 'feature5'
+            , 'feature6', 'feature7', 'feature8', 'feature9']
 # Prepare feature matrix
 X = data[features].values
 
